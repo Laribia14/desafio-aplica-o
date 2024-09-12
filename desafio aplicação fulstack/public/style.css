@@ -1,0 +1,85 @@
+/* Define o estilo geral da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Estiliza o título da página */
+  h1 {
+    color: #4CAF50; /* Verde */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Estiliza o formulário */
+  form {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 400px;
+  }
+  
+  /* Estiliza o campo de entrada de texto */
+  input[type="text"] {
+    width: calc(100% - 100px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Estiliza o botão do formulário */
+  button {
+    background-color: #4CAF50; /* Verde */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Verde escuro */
+  }
+  
+  /* Estiliza a lista de tarefas */
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 400px;
+  }
+  
+  /* Estiliza cada item da lista */
+  li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 10px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Estiliza o botão de excluir dentro dos itens da lista */
+  button {
+    background-color: #f44336; /* Vermelho */
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  button:hover {
+    background-color: #e53935; /* Vermelho escuro */
+  }
+  
